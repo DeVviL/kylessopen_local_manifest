@@ -2,22 +2,22 @@
 <manifest>
 
     <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
-    <project path="packages/apps/Bluetooth" name="majonez/android_packages_apps_Bluetooth---daniel" revision="cm-11.0" />
+    <project path="packages/apps/Bluetooth" name="DeVviL/android_packages_apps_Bluetooth" revision="cm-11.0" />
 
     <remove-project name="CyanogenMod/android_frameworks_opt_telephony-msim" />
-    <project path="frameworks/opt/telephony-msim" name="majonez/android_frameworks_opt_telephony-msim" revision="stable/cm-11.0" />
+    <project path="frameworks/opt/telephony-msim" name="DeVviL/android_frameworks_opt_telephony-msim" revision="stable/cm-11.0" />
     <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-    <project path="frameworks/opt/telephony" name="majonez/android_frameworks_opt_telephony" revision="stable/cm-11.0" />
+    <project path="frameworks/opt/telephony" name="DeVviL/android_frameworks_opt_telephony" revision="stable/cm-11.0" />
     
     <!-- CM replacements -->
     <remove-project name="CyanogenMod/android_frameworks_av" />
-    <project path="frameworks/av" name="majonez/android_frameworks_av" revision="cm-11.0" />
+    <project path="frameworks/av" name="DeVviL/android_frameworks_av" revision="cm-11.0" />
     <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-    <project path="hardware/libhardware_legacy" name="majonez/android_hardware_libhardware_legacy" revision="cm-11.0" />
+    <project path="hardware/libhardware_legacy" name="DeVviL/android_hardware_libhardware_legacy" revision="cm-11.0" />
 
     <!-- Local projects -->
-    <project path="hardware/atheros/wifi/libs" name="majonez/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
-    <project path="hardware/qcom/display-legacy" name="majonez/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-    <project path="hardware/qcom/media-legacy" name="majonez/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+    <project path="hardware/atheros/wifi/libs" name="DeVviL/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
+    <project path="hardware/qcom/display-legacy" name="DeVviL/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+    <project path="hardware/qcom/media-legacy" name="DeVviL/android_hardware_qcom_media-legacy" revision="cm-11.0" />
     
 </manifest>
